@@ -5,7 +5,8 @@ import GameOverScene from './scenes/GameOverScene.js';
 import JoinRoomScene from './scenes/JoinRoomScene.js';
 
 function initializeSocket() {
-    const socket = io('http://localhost:3000');
+    //const socket = io('http://localhost:3000');
+    const socket = io('https://rooks-move-service.onrender.com');
     return socket;
 }
 
